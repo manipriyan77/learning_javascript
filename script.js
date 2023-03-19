@@ -1,12 +1,9 @@
-// 1.Values and variables
-let name = "Manipriyan";
-let age = 24;
-let isMajor = true;
+const mani = ["Manipriyan", 1998, "web developer", ["Nishanth", "Maharajan"]];
+// console.log(mani[0]);
+// console.log(mani[1]);
+// console.log(mani[2]);
+// console.log(mani[3]);
 
-console.log(name);
-
-// 2.let const var
-let myAge = 24;
-myAge = 25;
-const myName = "Manipriyan";
-myName = "Mani";
+for (let i = 0; i < mani.length; i++) {
+  console.log(mani[i]);
+}
